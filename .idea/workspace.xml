@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e98d826a-4acb-415a-b3f8-bf96e5ce2040" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/builder/GameBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/game/GameStatistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/player/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/strategy/ComputerMoveChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/strategy/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/strategy/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/rps/strategy/RandomMoveChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/textdokument.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rps/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rps/Main.java" afterDir="false" />
     </list>
@@ -12,6 +21,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

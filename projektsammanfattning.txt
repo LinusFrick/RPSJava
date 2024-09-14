@@ -1,0 +1,23 @@
+I projektet har jag försökt använda flera objektorienterade principer
+för att göra koden mer strukturerad och lättare att underhålla.
+
+Till exempel har jag använt inkapsling för att skydda data inom klasser, som spelarens namn och poäng, genom att göra dem privata och bara
+ändra dem via specifika metoder som incrementScore(). Det gör att jag slipper bekymra mig för att saker ändras oavsiktligt i programmet.
+
+Jag har också använt polymorfism, vilket först var lite svårt att greppa.
+Jag har implementerat Strategy Pattern, där datorn använder olika strategier för att välja drag via ett interface, ComputerMoveChooser.
+Detta gör det enkelt att lägga till fler strategier om jag skulle vilja utöka spelet.
+
+När det gäller strukturen valde jag att använda komposition istället för arv.
+Det innebär att jag bygger spelet genom att kombinera objekt som Player och ComputerMoveChooser inuti Game.
+Detta gör att jag kan hålla spelet flexibelt och enkelt ändra på delar, som hur datorn spelar, utan att behöva skriva om mycket kod.
+
+Jag har också försökt följa Single Responsibility Principle genom att ge varje klass ett tydligt ansvar.
+Player hanterar spelarens namn och poäng, medan Game ansvarar för spelets regler och körning, och GameStatistics håller koll på statistiken.
+Detta gör att koden blir mer organiserad och enklare att förstå och ändra.
+
+För att göra spelet flexibelt att konfigurera har jag använt Builder Pattern, vilket låter mig bygga spelet steg för steg
+genom att lägga till spelare, strategi och antal rundor en i taget. Det gör koden renare och enklare att följa.
+
+Jag använde också Singleton Pattern för att hantera statistik, så att det bara finns en instans av GameStatistics under hela spelet.
+Detta gör att statistiken alltid hålls konsekvent och uppdateras korrekt.
